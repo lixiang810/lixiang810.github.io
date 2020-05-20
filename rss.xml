@@ -6,36 +6,46 @@
     <atom:link href="https://lixiang810.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>记录精彩的程序人生</description>
     <generator>Solo, v4.1.0, https://solo.b3log.org</generator>
-    <lastBuildDate>Wed, 20 May 2020 19:20:51 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 20:15:07 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
       <title>我在 GitHub 上的开源项目</title>
       <link>https://lixiang810.github.io/my-github-repos</link>
       <description><![CDATA[<ol>
-<li>listofnobar Python ]]>🤩<![CDATA[4&nbsp;&nbsp;⭐️10&nbsp;&nbsp;]]>🖖<![CDATA[13 真夏夜之银梦吧枪毙名单  2. fk-gfw  ]]>🤩<![CDATA[1&nbsp;&nbsp;⭐️0&nbsp;&nbsp;]]>🖖<![CDATA[0</li>
+<li>listofnobar Python 🤩4&nbsp;&nbsp;⭐️10&nbsp;&nbsp;🖖13 真夏夜之银梦吧枪毙名单  2. fk-gfw  🤩1&nbsp;&nbsp;⭐️0&nbsp;&nbsp;🖖0</li>
 </ol>]]></description>
       <author>lixiang810</author>
       <guid>https://lixiang810.github.io/my-github-repos</guid>
-      <category>GitHub</category>
       <category>开源</category>
-      <pubDate>Wed, 20 May 2020 18:37:58 +0800</pubDate>
+      <category>GitHub</category>
+      <pubDate>Wed, 20 May 2020 20:04:00 +0800</pubDate>
     </item>
     <item>
-      <title>世界，你好！</title>
-      <link>https://lixiang810.github.io/hello-solo</link>
-      <description><![CDATA[<p><img src="https://b3logfile.com/bing/20190322.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100" alt=""></p>
-<p>Solo 博客系统已经初始化完毕，可在管理后台 - 工具 - 偏好设定中调整更多细节设置。如果需要导入已有博客文章，请参考文档 <a href="https://hacpai.com/article/1498490209748" target="_blank">Hexo/Jekyll/Markdown 文件导入</a>。</p>
-<p>对了，出于安全考虑请尽快完成如下操作：</p>
-<ol>
-<li>登录<a href="https://hacpai.com" target="_blank">社区</a></li>
-<li>在社区<a href="https://hacpai.com/settings/b3" target="_blank">个人设置 - B3</a> 中更新 B3 Key</li>
-<li>在 Solo 管理后台 - 工具 - 用户管理中也进行同样的 B3 Key 更新</li>
-</ol>
-<p>最后，如果你觉得 Solo 很赞，请到<a href="https://github.com/88250/solo" target="_blank">项目主页</a>给颗星鼓励一下 ❤️</p>]]></description>
+      <title>2018荣耀magicbook锐龙版archlinux卡死解决方案</title>
+      <link>https://lixiang810.github.io/articles/2020/05/14/1589402275000.html</link>
+      <description><![CDATA[<p>我的2018款魔法书锐龙版对linux的兼容性极差。   deepin v15（注：2018款魔法书均预装windows，2019才有deepin pro）直接调不了背光。 opensuse tumbleweed运行中卡死，只能强制重启。 ubuntu同上。 kde neon、kubuntu、manjaro、archlinux同上。  最近才在华为论坛上找到办法，作者则是在archwiki上看到的。不过作者打字水平不太好，文内有多处错误，我搞了之后大致如下： /etc/mkinitcpio.conf …… MODULES=(amdgpu radeon) ……  据wiki说在modules里面按顺序填上amdgpu radeon即可解决。不过在此之前我按华为论坛上作者的办法（只填amdgpu）问题依旧。我如此修改以后问题出现的频率有所减少，但依旧存在。 同时，通过经验我还发现，电脑卡死的现象与过热存在一定的相关性。因此，我安装了tlp和tlpui-git（为tlp开发的一个GUI），并将各项设置调为“优先节能（power）”，目前过热的现象大大减少，卡死的现象暂未出现。(在此以后卡死现....</p>]]></description>
       <author>lixiang810</author>
-      <guid>https://lixiang810.github.io/hello-solo</guid>
-      <category>Solo</category>
-      <pubDate>Wed, 20 May 2020 12:33:36 +0800</pubDate>
+      <guid>https://lixiang810.github.io/articles/2020/05/14/1589402275000.html</guid>
+      <category>教程</category>
+      <pubDate>Thu, 14 May 2020 04:37:55 +0800</pubDate>
+    </item>
+    <item>
+      <title>举报的胜利不是正义的胜利</title>
+      <link>https://lixiang810.github.io/articles/2020/05/10/1589062476000.html</link>
+      <description><![CDATA[<p>近日，我校学生/家长成功以向教育局举报学校饭堂的方式缓解了我们的伙食问题。然而，我并不认为这次“胜利”有多么光荣。</p>]]></description>
+      <author>lixiang810</author>
+      <guid>https://lixiang810.github.io/articles/2020/05/10/1589062476000.html</guid>
+      <category>随想</category>
+      <pubDate>Sun, 10 May 2020 06:14:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>如何在15分钟内开起自己的博客</title>
+      <link>https://lixiang810.github.io/articles/2020/03/01/1583004039000.html</link>
+      <description><![CDATA[<p>极简教程，看得懂的自然懂</p>]]></description>
+      <author>lixiang810</author>
+      <guid>https://lixiang810.github.io/articles/2020/03/01/1583004039000.html</guid>
+      <category>教程</category>
+      <pubDate>Sun, 01 Mar 2020 03:20:39 +0800</pubDate>
     </item>
   </channel>
 </rss>
