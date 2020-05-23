@@ -3,10 +3,10 @@
     "theme_color": "#1fb5ad",
     "background_color": "#f1f2f7",
     "display": "standalone",
-    "name": "lixiang810 的个人博客",
+    "name": "黎想的一个博客",
     "start_url": ".",
-    "description": "记录精彩的程序人生",
-    "short_name": "lixiang810 的个人博客",
+    "description": "用solo乱搞的",
+    "short_name": "黎想的一个博客",
     "icons": [
         {
             "sizes": "48x48",
