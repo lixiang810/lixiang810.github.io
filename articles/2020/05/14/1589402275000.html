@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="theme-color" content="#3b3e43"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"/><title>2018荣耀magicbook锐龙版archlinux卡死解决方案 - 黎想的一个博客</title><meta name="description" content="我的2018款魔法书锐龙版对linux的兼容性极差。"/><meta property="og:description" content="我的2018款魔法书锐龙版对linux的兼容性极差。"/>    <meta name="keywords" content="Solo,博客,开源,生活,编程,微政治"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources"><link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"/><link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"><link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"><meta name="copyright" content="B3log"/><meta http-equiv="Window-target" content="_top"/><meta property="og:locale" content="zh_CN"/><meta property="og:title" content="2018荣耀magicbook锐龙版archlinux卡死解决方案 - 黎想的一个博客"/><meta property="og:site_name" content="黎想的一个博客"/><meta property="og:url"      content="https://lixiang810.github.io/articles/2020/05/14/1589402275000.html?"/><meta property="og:image" content="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"/><link rel="search" type="application/opensearchdescription+xml" title="2018荣耀magicbook锐龙版archlinux卡死解决方案 - 黎想的一个博客" href="/opensearch.xml"><link href="https://lixiang810.github.io/rss.xml" title="RSS" type="application/rss+xml" rel="alternate"/><link rel="manifest" href="https://lixiang810.github.io/manifest.json">        <link rel="canonical" href="https://lixiang810.github.io/articles/2020/05/14/1589402275000.html">        <link rel="stylesheet"
-              href="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/skins/Casper/css/base.css?1590416062702"/>
+              href="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/skins/Casper/css/base.css?1590416689276"/>
             <link rel="prev" title="举报的胜利不是正义的胜利" href="https://lixiang810.github.io/articles/2020/05/10/1589062476000.html">
             <link rel="next" title="我在 GitHub 上的开源项目" href="https://lixiang810.github.io/my-github-repos">
     </head>
@@ -105,7 +105,7 @@
                 2018荣耀magicbook锐龙版archlinux卡死解决方案
             </h2>
         </div>
-        <div class="item__cover" style="background-image: url(https://b3logfile.com/bing/20181102.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100)"></div>
+        <div class="item__cover" style="background-image: url(https://b3logfile.com/bing/20180317.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100)"></div>
         <div class="wrapper">
             <section class="item__content item__content--article vditor-reset">
                 <p>我的2018款魔法书锐龙版对linux的兼容性极差。</p>
@@ -172,7 +172,8 @@ WantedBy=basic.target
 <p>于是我把kde的混成器设置从OpenGL3.1改成了2.0，现在暂时没事了。</p>
 <p>然后还有吧友提供了<a href="https://tieba.baidu.com/p/6686363600" target="_blank">另一个方案</a></p>
 <p>（/etc/default/grub）：</p>
-<p>acpi_osi="Windows 2015" reboot=kbd ivrs_ioapic[32]=00:14.0 amd_iommu=on idle=nomwait amdgpu.vm_fragment_size=9 initrd=/boot/amd-ucode.img</p>
+<pre><code>acpi_osi="Windows 2015" reboot=kbd ivrs_ioapic[32]=00:14.0 amd_iommu=on idle=nomwait amdgpu.vm_fragment_size=9 initrd=/boot/amd-ucode.img
+</code></pre>
 <blockquote>
 <p>修订于2020年5月25日</p>
 </blockquote>
@@ -242,7 +243,7 @@ WantedBy=basic.target
   }
 </script>
 <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/skins/Casper/js/common.min.js?1590416062702"
+        src="https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/skins/Casper/js/common.min.js?1590416689276"
         charset="utf-8"></script>
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.8/index.css"/>
 <script async src="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.8/index.js"></script>
@@ -276,7 +277,7 @@ WantedBy=basic.target
 
 
 <script type="text/javascript">
-    Util.addScript('https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/js/page.min.js?1590416062702', 'soloPageScript')
+    Util.addScript('https://cdn.jsdelivr.net/gh/lixiang810/solo@4.1.0/src/main/resources/js/page.min.js?1590416689276', 'soloPageScript')
     var page = new Page({
         "commentContentCannotEmptyLabel": "评论内容只能为 2 到 500 个字符！",
         "oId": "1589402275000",
@@ -294,4 +295,4 @@ WantedBy=basic.target
 </body>
 </html>
 
-<!-- Generated by Latke (https://github.com/88250/latke) in 35ms, 2020/05/25 22:17:54 -->
+<!-- Generated by Latke (https://github.com/88250/latke) in 61ms, 2020/05/25 22:27:21 -->
