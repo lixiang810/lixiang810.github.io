@@ -6,16 +6,16 @@
     <atom:link href="https://lixiang810.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>用solo乱搞的</description>
     <generator>Solo, v4.1.0, https://solo.b3log.org</generator>
-    <lastBuildDate>Tue, 26 May 2020 19:50:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 22:12:57 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
-      <title>2018荣耀magicbook锐龙版archlinux卡死解决方案</title>
+      <title>2018款荣耀magicbook锐龙版archlinux卡死解决方案</title>
       <link>https://lixiang810.github.io/articles/2020/05/14/1589402275000.html</link>
       <description><![CDATA[<p>我的2018款魔法书锐龙版对linux的兼容性极差。</p>]]></description>
       <author>lixiang810</author>
       <guid>https://lixiang810.github.io/articles/2020/05/14/1589402275000.html</guid>
       <category>教程</category>
-      <pubDate>Tue, 26 May 2020 19:50:28 +0800</pubDate>
+      <pubDate>Wed, 27 May 2020 22:12:34 +0800</pubDate>
     </item>
     <item>
       <title>我在 GitHub 上的开源项目</title>
@@ -25,8 +25,8 @@
 </ol>]]></description>
       <author>lixiang810</author>
       <guid>https://lixiang810.github.io/my-github-repos</guid>
-      <category>开源</category>
       <category>GitHub</category>
+      <category>开源</category>
       <pubDate>Wed, 20 May 2020 20:04:00 +0800</pubDate>
     </item>
     <item>
