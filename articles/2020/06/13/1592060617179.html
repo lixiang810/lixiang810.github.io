@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="theme-color" content="#3b3e43"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"/><title>Hexo-theme-Sakura折腾日记（1） - 黎想的一个博客</title><meta name="description" content="如何获得一个匿名又免翻墙的评论区"/><meta property="og:description" content="如何获得一个匿名又免翻墙的评论区"/>    <meta name="keywords" content="Solo,博客,开源,生活,编程,微政治"/><link rel="dns-prefetch" href="https://lixiang810.github.io"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://lixiang810.github.io"><link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"/><link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"><link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"><meta name="copyright" content="B3log"/><meta http-equiv="Window-target" content="_top"/><meta property="og:locale" content="zh_CN"/><meta property="og:title" content="Hexo-theme-Sakura折腾日记（1） - 黎想的一个博客"/><meta property="og:site_name" content="黎想的一个博客"/><meta property="og:url"      content="https://lixiang810.github.io/articles/2020/06/13/1592060617179.html?"/><meta property="og:image" content="https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/1.jpg"/><link rel="search" type="application/opensearchdescription+xml" title="Hexo-theme-Sakura折腾日记（1） - 黎想的一个博客" href="/opensearch.xml"><link href="https://lixiang810.github.io/rss.xml" title="RSS" type="application/rss+xml" rel="alternate"/><link rel="manifest" href="https://lixiang810.github.io/manifest.json">        <link rel="canonical" href="https://lixiang810.github.io/articles/2020/06/13/1592060617179.html">        <link rel="stylesheet"
-              href="https://lixiang810.github.io/skins/Casper/css/base.css?1592060300632"/>
+              href="https://lixiang810.github.io/skins/Casper/css/base.css?1592061557691"/>
             <link rel="prev" title="我在 GitHub 上的开源项目" href="https://lixiang810.github.io/my-github-repos">
     </head>
 <body class="fn__flex-column">
@@ -112,27 +112,22 @@
                 Hexo-theme-Sakura折腾日记（1）
             </h2>
         </div>
-        <div class="item__cover" style="background-image: url(https://b3logfile.com/bing/20200603.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100)"></div>
+        <div class="item__cover" style="background-image: url(https://b3logfile.com/bing/20181013.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100)"></div>
         <div class="wrapper">
             <section class="item__content item__content--article vditor-reset">
                 <p><a href="https://lixiang810.github.io" target="_blank">我的solo博客</a>  <a href="https://lixiang3.imfast.io" target="_blank">我的hexo博客</a></p>
-<h1 id="toc_h1_0">目录</h1>
-<p><a href="#为什么要魔改+Sakura">为什么要魔改 Sakura</a><br>
-<a href="#为什么使用+gitalk">为什么使用 gitalk</a><br>
-<a href="#尝试与失败过程">尝试与失败过程</a><br>
-<a href="#最终进行的修改">最终进行的修改</a></p>
-<h1 id="toc_h1_1">为什么要魔改 Sakura</h1>
+<h1 id="toc_h1_0">为什么要魔改 Sakura</h1>
 <p>实名与匿名是一种抉择。让利维坦手中握住更多的信息也许能带给大多数人安全，却同样会伤害异见者。而事实证明，异见者并不总是出于恶意动机。何况“对事不对人”“针对观点而非质疑动机”也是公共说理的基本素养。然而，有一些国家的政府却不允许任何匿名性的存在，无论是纸质出版的匿名性还是网络的匿名性。<br>
 近年来，在这些国家中的一个国家，新兴的垄断巨头与政府相勾结，垄断巨头负责挤垮小平台进而集中用户（这个过程是自由资本主义转为垄断资本主义，也即帝国主义的必然），而政府则可以方便地对这些已经自愿或 <code>因大多数人的自愿而</code>被迫集中起来的人进行集中管理（这却是偶然——法德等大多数西欧国家是反例）。该国网络的匿名程度很低，然而，网络犯罪却不见得因此减少：巨头和政府有办法拿到公民的个人信息，另一些个人就有办法从巨头和手里把它们购买或盗窃出来。恶俗维基的存在以及恶俗维基上面满天飞舞的户籍就是证明——小如未成年人大如刘慈欣，只要把自己的信息交予利维坦，就不要指望别人不知道，特别是在这单凭手机号就足够把人翻个底朝天的时代。刘慈欣的小号被发现，就是从其绑定的手机号着手，发掘出了支付宝号、身份证号等信息，从而让恶俗人士一步步锁定目标。<br>
 这一点上， Sakura 采用的 Valine 评论系统令我胆战心惊：部署 Valine 的后端，竟需要进行身份证实名认证！作为亲眼目睹公权力对本人学校里异见者迫害，甚至自己也险遭卷入的人，毫无疑问地，我很害怕。万一哪天我心血来潮作了死（如“不存在的人”、“不存在的人”和“不存在的人”），或者无意之间说了一些不能说的东西（李医生等人就是例子），那岂不是训诫往上起步？虽然公权力找到我的身份易如反掌，但我不想主动投怀送抱。万一触怒了恶俗系的残留势力，那岂不是全家户籍都要被挂出去？虽然有心者还是可以从这个博客里找到我真人的蛛丝马迹，但我不希望他们只花5块钱查个社工库就做得到。</p>
-<h1 id="toc_h1_2">为什么使用 gitalk</h1>
+<h1 id="toc_h1_1">为什么使用 gitalk</h1>
 <p>毫无疑问地，拒绝追踪的评论系统在这个国家已经死绝了。如果没有，那么也不是我能找到的。于是我首先考虑了 <code>disqus</code> 。然后我发现它的服务器被墙了。囧rz。<br>
 最后我选择了 gitalk ，它是一个利用 github issues 作为后端的评论系统。 <code>Hexo-theme-Nexmoe</code> 有自带，但我更喜欢 <code>Sakura</code> ，然而 <code>Sakura</code> 目前仅支持 <code>gitalk</code> 。<br>
 使用 gitalk ，是因为 github 短期内不会被墙。作为全世界最大开源平台，并且有微软这样与 <code>这国家</code>合作的公司的加持， github 被墙的可能性不能说没有，但短期内我们仍可拥有“依附的自由”。<br>
 于是我开始了魔改。</p>
-<h1 id="toc_h1_3">尝试与失败过程</h1>
+<h1 id="toc_h1_2">尝试与失败过程</h1>
 <p>先咕着。（屑颜）</p>
-<h1 id="toc_h1_4">最终进行的修改</h1>
+<h1 id="toc_h1_3">最终进行的修改</h1>
 <p>先装 gitalk （不确定这一步是否必须）</p>
 <pre><code class="language-bash">$ npm install gitalk --save
 </code></pre>
@@ -216,19 +211,16 @@ $ git push
         <div class="post__toc">
 <ul class="article__toc">
         <li class="toc__h1">
-            <a href="#toc_h1_0">目录</a>
+            <a href="#toc_h1_0">为什么要魔改 Sakura</a>
         </li>
         <li class="toc__h1">
-            <a href="#toc_h1_1">为什么要魔改 Sakura</a>
+            <a href="#toc_h1_1">为什么使用 gitalk</a>
         </li>
         <li class="toc__h1">
-            <a href="#toc_h1_2">为什么使用 gitalk</a>
+            <a href="#toc_h1_2">尝试与失败过程</a>
         </li>
         <li class="toc__h1">
-            <a href="#toc_h1_3">尝试与失败过程</a>
-        </li>
-        <li class="toc__h1">
-            <a href="#toc_h1_4">最终进行的修改</a>
+            <a href="#toc_h1_3">最终进行的修改</a>
         </li>
 </ul>        </div>
         <div id="b3logsolocomments"></div>
@@ -284,7 +276,7 @@ $ git push
   }
 </script>
 <script type="text/javascript"
-        src="https://lixiang810.github.io/skins/Casper/js/common.min.js?1592060300632"
+        src="https://lixiang810.github.io/skins/Casper/js/common.min.js?1592061557691"
         charset="utf-8"></script>
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.8/index.css"/>
 <script async src="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.8/index.js"></script>
@@ -318,7 +310,7 @@ $ git push
 
 
 <script type="text/javascript">
-    Util.addScript('https://lixiang810.github.io/js/page.min.js?1592060300632', 'soloPageScript')
+    Util.addScript('https://lixiang810.github.io/js/page.min.js?1592061557691', 'soloPageScript')
     var page = new Page({
         "commentContentCannotEmptyLabel": "评论内容只能为 2 到 500 个字符！",
         "oId": "1592060617179",
@@ -336,4 +328,4 @@ $ git push
 </body>
 </html>
 
-<!-- Generated by Latke (https://github.com/88250/latke) in 53ms, 2020/06/13 23:04:26 -->
+<!-- Generated by Latke (https://github.com/88250/latke) in 34ms, 2020/06/13 23:19:37 -->

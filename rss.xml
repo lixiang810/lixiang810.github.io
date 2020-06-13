@@ -6,7 +6,7 @@
     <atom:link href="https://lixiang810.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>用solo乱搞的</description>
     <generator>Solo, v4.1.0, https://solo.b3log.org</generator>
-    <lastBuildDate>Sat, 13 Jun 2020 23:04:26 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 23:19:37 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
       <title>Hexo-theme-Sakura折腾日记（1）</title>
@@ -15,7 +15,7 @@
       <author>lixiang810</author>
       <guid>https://lixiang810.github.io/articles/2020/06/13/1592060617179.html</guid>
       <category>教程</category>
-      <pubDate>Sat, 13 Jun 2020 23:04:02 +0800</pubDate>
+      <pubDate>Sat, 13 Jun 2020 23:19:05 +0800</pubDate>
     </item>
     <item>
       <title>2018款荣耀magicbook锐龙版archlinux卡死解决方案</title>
@@ -34,8 +34,8 @@
 </ol>]]></description>
       <author>lixiang810</author>
       <guid>https://lixiang810.github.io/my-github-repos</guid>
-      <category>开源</category>
       <category>GitHub</category>
+      <category>开源</category>
       <pubDate>Wed, 20 May 2020 20:04:00 +0800</pubDate>
     </item>
     <item>
