@@ -6,8 +6,18 @@
     <atom:link href="https://penclub.imfast.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>用solo乱搞的</description>
     <generator>Solo, v4.1.0, https://solo.b3log.org</generator>
-    <lastBuildDate>Tue, 16 Jun 2020 12:38:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 21:36:50 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>黑客派可以有搜索引擎之外的流量来源</title>
+      <link>https://penclub.imfast.io/articles/2020/06/22/1592832965641.html</link>
+      <description><![CDATA[<p>想增加流量，单凭搜索引擎已经不够了。唯有主动出击，才能从被瓜分的互联网中分一杯羹。</p>]]></description>
+      <author>lixiang810</author>
+      <guid>https://penclub.imfast.io/articles/2020/06/22/1592832965641.html</guid>
+      <category>b3log</category>
+      <category>黑客派</category>
+      <pubDate>Mon, 22 Jun 2020 21:36:05 +0800</pubDate>
+    </item>
     <item>
       <title>（小说）母校</title>
       <link>https://penclub.imfast.io/articles/2020/06/15/1592227950155.html</link>
@@ -43,8 +53,8 @@
 </ol>]]></description>
       <author>lixiang810</author>
       <guid>https://penclub.imfast.io/my-github-repos</guid>
-      <category>开源</category>
       <category>GitHub</category>
+      <category>开源</category>
       <pubDate>Wed, 20 May 2020 20:04:00 +0800</pubDate>
     </item>
     <item>
