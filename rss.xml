@@ -6,16 +6,25 @@
     <atom:link href="https://penclub.imfast.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>用solo乱搞的</description>
     <generator>Solo, v4.1.0, https://solo.b3log.org</generator>
-    <lastBuildDate>Mon, 22 Jun 2020 21:36:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 14:02:53 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>追求来的自由 vs. 自由的气质 —— 高中记 1 兼德国游记</title>
+      <link>https://penclub.imfast.io/articles/2020/07/22/1595397715702.html</link>
+      <description><![CDATA[<p>自由有两种：争来的自由与生来的自由。靠逻辑可以斩断枷锁争来自由，却没有办法代替环境给人带来的自由的气质。</p>]]></description>
+      <author>lixiang810</author>
+      <guid>https://penclub.imfast.io/articles/2020/07/22/1595397715702.html</guid>
+      <category>随笔</category>
+      <pubDate>Wed, 22 Jul 2020 14:02:24 +0800</pubDate>
+    </item>
     <item>
       <title>黑客派可以有搜索引擎之外的流量来源</title>
       <link>https://penclub.imfast.io/articles/2020/06/22/1592832965641.html</link>
       <description><![CDATA[<p>想增加流量，单凭搜索引擎已经不够了。唯有主动出击，才能从被瓜分的互联网中分一杯羹。</p>]]></description>
       <author>lixiang810</author>
       <guid>https://penclub.imfast.io/articles/2020/06/22/1592832965641.html</guid>
-      <category>b3log</category>
       <category>黑客派</category>
+      <category>b3log</category>
       <pubDate>Mon, 22 Jun 2020 21:36:05 +0800</pubDate>
     </item>
     <item>

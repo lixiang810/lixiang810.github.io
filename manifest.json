@@ -6,7 +6,7 @@
     "name": "黎想的一个博客",
     "start_url": ".",
     "description": "用solo乱搞的",
-    "short_name": "黎想的一个博客",
+    "short_name": "${shortName}",
     "icons": [
         {
             "sizes": "48x48",
